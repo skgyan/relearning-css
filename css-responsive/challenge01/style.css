@@ -26,6 +26,10 @@ body {
   color: white;
 
   width: 80%;
+  
+  /* for a better user experience you want to stop your screen to keep growing
+   and then max-width comes handy in that case */
+  max-width: 750px;
   margin: 0 auto;
 
   padding: 2em;
